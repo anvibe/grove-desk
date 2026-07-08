@@ -29,8 +29,8 @@ export default function BottomRow() {
   return (
     <section className="row bottom-row">
       <article className="card chats-card">
-        <h3 className="card-title lg">Chats</h3>
-        <p className="stat-caption">2 unread messages</p>
+        <h3 className="card-title lg" data-cms-key="heading_4">Chats</h3>
+        <p className="stat-caption" data-cms-key="paragraph_3">2 unread messages</p>
         <div className="chat-avatars">
           {chatAvatars.map((a) => (
             <div className="chat-avatar-wrap" key={a.seed}>
@@ -42,7 +42,7 @@ export default function BottomRow() {
       </article>
 
       <article className="card states-card">
-        <h3 className="card-title lg">Top states</h3>
+        <h3 className="card-title lg" data-cms-key="heading_5">Top states</h3>
         <ul className="state-bars">
           {topStates.map((s) => (
             <li key={s.code} className="state-bar-row">
@@ -56,7 +56,7 @@ export default function BottomRow() {
       </article>
 
       <article className="card deals-card">
-        <h3 className="card-title lg">New deals</h3>
+        <h3 className="card-title lg" data-cms-key="heading_6">New deals</h3>
         <div className="deal-pills">
           {newDeals.map((d) => (
             <button className="deal-pill" type="button" key={d}>

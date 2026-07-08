@@ -63,7 +63,7 @@ export default function CustomersGrowth() {
     <section className="row split-row">
       <article className="card customers-card">
         <div className="card-header">
-          <h3 className="card-title lg">Customers</h3>
+          <h3 className="card-title lg" data-cms-key="heading_10">Customers</h3>
           <button className="sort-btn" type="button">
             Sort by <strong>Newest</strong>
           </button>
@@ -113,7 +113,7 @@ export default function CustomersGrowth() {
 
       <article className="card growth-card">
         <div className="card-header">
-          <h3 className="card-title lg">Growth</h3>
+          <h3 className="card-title lg" data-cms-key="heading_11">Growth</h3>
           <button className="sort-btn" type="button">
             <strong>Yearly</strong>
           </button>

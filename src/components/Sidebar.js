@@ -60,6 +60,7 @@ export default function Sidebar() {
             src="https://picsum.photos/seed/gustavo-xavier-admin/64/64"
             alt="Gustavo Xavier"
             className="user-avatar"
+            data-cms-key="image_1"
           />
           <div className="user-meta">
             <span className="user-name">Gustavo Xavier</span>
